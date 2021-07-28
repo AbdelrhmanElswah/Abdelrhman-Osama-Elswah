@@ -1,0 +1,125 @@
+body{}
+h1 { text-align: center;
+  
+}
+
+.little{ font-family: sans-serif;
+
+}
+.sushi{
+  width: 20%;
+ position: relative;
+ top: 0px;
+ left:80% ;
+ font-size: 18px;
+background: yellow;
+padding:1px;
+}
+.beff{
+  width: 20%;
+ position: relative;
+ top: 0px;
+ left:80% ;
+ font-size: 18px;
+background: red;
+padding:1px;
+}
+.chicken{
+  width: 20%;
+ position: relative;
+ top: 0px;
+ left:80% ;
+ font-size: 18px;
+background: pink;
+padding:1px;
+}
+
+.box1{
+     border: solid black 1px;
+   background: gray;
+   width: 31%;
+   margin: 0.9%;
+   font-family: sans-serif;
+   float: left;
+   position: relative;
+  top: 250px;
+  
+}
+.box2{
+     border: solid black 1px;
+   background: gray;
+   width:31%;
+   padding: 1px;
+   margin: 0.9%;
+   font-family: sans-serif;
+   float: left;
+   position: relative;
+  top: 250px;
+ 
+
+
+
+}
+.box3{
+     border: solid black 1px;
+   background: gray;
+   width: 31%;
+   padding: 1px;
+   margin: 0.9%;
+   font-family: sans-serif;
+  float: left;
+  position: relative;
+  top: 250px;
+}
+@media only screen and (max-width: 1325px) and (min-width: 992px) {
+  body 
+    
+    .box1{
+  width: 31%;
+}
+.box2{
+
+   width:31%;
+
+}
+.box3{
+   width: 31%;
+}
+    
+  }
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  body 
+    
+    .box1{
+   width: 45%;
+}
+.box2{
+   width:45%;
+
+}
+.box3{
+   width: 45%;
+}
+}
+
+  
+
+@media only screen and (max-width: 767px)  {
+  body 
+    
+    .box1{
+   width: 100%;
+}
+.box2{
+   width:100%
+
+
+}
+.box3{
+  width: 100%;
+}
+  }
+
+
+</body>
